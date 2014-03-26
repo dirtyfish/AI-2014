@@ -1,4 +1,42 @@
 ASSIGNMENT 3 - AI 2014
 
-Guys if you read this. Pliz send me the link to the dataset by updating this txt file,
-or upload dataset to google docs.. or both.. thanks. :)
+Some ideas:
+
+We need to get those letters scanned soon.
+
+We should be able to detect:
+-Horizontal lines
+-Vertical lines
+-Diagonal lines
+-Curved lines(the quarter of a circle?)
+
+The program should be able to describe the letter like..
+
+Two diagonal lines meeting at the bottom = V
+
+Two diagonal lines meeting on top
++
+a line between the two diagonal lines = A
+
+4 curved lines meeting on top = O
+(or 1 line with 4 sections)
+
+6 curved lines = S
+
+
+6 curved lines, one ending in middle = G
+
+3 horizontal lines, 1 vertical = E
+
+
+and so on..
+
+
+A=3
+B=5
+C=1
+D=2
+E=4
+F=3
+G=3?
+..and we shoudl probably collect most data from training.

@@ -92,6 +92,10 @@ def main():
                         screen.blit(bitmap, (x+130*bitmapnr, y+adjust), (xpos, ypos, 25,25))
 
 
+        if frame==300:
+            screen = pygame.display.set_mode((640, 480), HWSURFACE|DOUBLEBUF|FULLSCREEN)
+
+
         
         #bitmap=bitmaplist[frame/100%5]
         #bitmap = pygame.transform.scale2x(bitmap)

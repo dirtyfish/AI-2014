@@ -24,7 +24,7 @@ bitmaplist=[]
 
 
 def getrandomfilename():
-    return letters[random.randint(0,25)]+str(random.randint(1,10))+".jpg"
+    return letters[random.randint(0,len(letters)-1)]+str(random.randint(1,10))+".jpg"
 
 def main():
     #initialize and setup screen

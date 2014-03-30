@@ -38,6 +38,7 @@ def main():
       bitmap = pygame.image.load(imagename)
       bitmap = pygame.transform.scale2x(bitmap)
       bitmap = pygame.transform.scale2x(bitmap)
+
       imagenamelist.append(imagename)
       bitmaplist.append(bitmap)
 
@@ -54,11 +55,13 @@ def main():
     anim = 0.0
 
     #mainloop
-    xblocks = range(00, 640, 25)
-    yblocks = range(00, 480, 25)
+    
     stopevents = QUIT, KEYDOWN, MOUSEBUTTONDOWN
     frame=0
+
     while 1:
+        xblocks = range(00, 640, 24)
+        yblocks = range(00, 480, 24) 
         frame+=1
         adjust=100-frame
         if adjust<0:adjust=0
@@ -76,7 +79,7 @@ def main():
                     xpos = (x + (sin(anim+bitmapnr+adjust + x * .03) * 15)) + 0
                     for y in yblocks:
                         ypos = (y + (sin(anim+bitmapnr + y * .03) * 15)) + 0
-                        screen.blit(bitmap, (x+130*bitmapnr, y+adjust), (xpos, ypos, 24,24))
+                        screen.blit(bitmap, (x+130*bitmapnr, y+adjust), (xpos, ypos, 23,23))
 
         if frame>150:
             for bitmap in bitmaplist:
@@ -90,9 +93,21 @@ def main():
 
 
         
+        #bitmap=bitmaplist[frame/100%5]
+        #bitmap = pygame.transform.scale2x(bitmap)
+        #screen.blit(bitmap, (200, 200), (0, 0, 240,240))
+
+        xblocks = range(00, 640, 48)
+        yblocks = range(00, 480, 48)
         bitmap=bitmaplist[frame/100%5]
         bitmap = pygame.transform.scale2x(bitmap)
-        screen.blit(bitmap, (200, 200), (0, 0, 225,225))
+        if 1:
+           anim = anim + 0.04
+           for x in xblocks:
+                    xpos = x#(x + (sin(anim+bitmapnr+adjust + x * .03) * 15)) + 0
+                    for y in yblocks:
+                        ypos = y#(y + (sin(anim+bitmapnr + y * .03) * 15)) + 0
+                        screen.blit(bitmap, (x+200, y+200), (xpos, ypos, 47,47))
 
 
         pygame.display.flip()

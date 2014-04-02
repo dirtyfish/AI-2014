@@ -191,7 +191,7 @@ def main():
                 avgcolorlist.append(sumcolor/count*5)
             #print sumcolorlist
            
-            print imagename,avgcolorlist
+            print avgcolorlist,","
             
 
         if frame%100<3:

@@ -141,8 +141,8 @@ def main():
 
          
 
-        xblocks = range(00, 240, 24)
-        yblocks = range(00, 240, 24)    
+        xblocks = range(00, 240, 48)
+        yblocks = range(00, 240, 48)    
         count=0
         avgcolor=[0,0,0]
         sumcolor=[0,0,0]
@@ -156,7 +156,7 @@ def main():
                         ypos = y#(y + (sin(anim+bitmapnr + y * .03) * 15)) + 0   
 
                         
-                        for offset in range(2,22,2): #define scan area
+                        for offset in range(4,44,4): #define scan area
                           
                           if frame%100==0:
                                          
@@ -166,14 +166,14 @@ def main():
                             sumcolor[0]+=pickcolor[0]
                             #sumcolor[1]+=pickcolor[1]
                             #sumcolor[2]+=pickcolor[2]
-                            pickcolor=screen.get_at((200+x+24-offset, 200+y+offset)) #other diagonal
+                            pickcolor=screen.get_at((200+x+48-offset, 200+y+offset)) #other diagonal
                             sumcolor[0]+=pickcolor[0]
                             #sumcolor[1]+=pickcolor[1]               #we dont need more than grayscale info
                             #sumcolor[2]+=pickcolor[2]               #since r=g=b, only one is needed
                           justacolor=randomcolor()
                           screen.set_at((200+x+offset, 200+y+offset), justacolor) 
                           
-                          screen.set_at((200+x+24-offset, 200+y+offset), justacolor)
+                          screen.set_at((200+x+48-offset, 200+y+offset), justacolor)
                             
                         if frame%100==0:
                             sumcolorlist.append(sumcolor[0])
@@ -188,7 +188,7 @@ def main():
             #avgcolor[1]=sumcolor[1]/count
             #avgcolor[2]=sumcolor[2]/count
             for sumcolor in sumcolorlist:
-                avgcolorlist.append(sumcolor/count*10)
+                avgcolorlist.append(5*sumcolor/count)
             #print sumcolorlist
            
             print avgcolorlist,","

@@ -86,7 +86,7 @@ def main():
     while 1:
         xblocks = range(00, 120, 24)
         yblocks = range(00, 120, 24) 
-        frame+=10
+        frame+=1
         adjust=100-frame
         if adjust<0:adjust=0
         screen.fill(black)

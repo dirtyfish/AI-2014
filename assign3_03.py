@@ -24,6 +24,8 @@ green = (0,255,0)
 blue = (0,0,255) 
 
 letters= ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
+nletters=26
+nset=20
 vocals= ['A','E','I','O','U','Y']
 imagenamelist=[]
 bitmaplist=[]
@@ -56,8 +58,8 @@ def main():
     screen = pygame.display.set_mode((640, 480), HWSURFACE|DOUBLEBUF)
 
     #load image and quadruple
-    for c in range(0,26):
-        for x in range(1,11):
+    for c in range(0,nletters):
+        for x in range(1,nset+1):
           imagename= os.path.join(main_dir, 'RESIZED_30x30',getfilename(c,x))
           bitmap = pygame.image.load(imagename)
           bitmap = pygame.transform.scale2x(bitmap)
@@ -86,7 +88,7 @@ def main():
     while 1:
         xblocks = range(00, 120, 24)
         yblocks = range(00, 120, 24) 
-        frame+=1
+        frame+=+20
         adjust=100-frame
         if adjust<0:adjust=0
         screen.fill(black)
@@ -123,8 +125,8 @@ def main():
 
         xblocks = range(00, 240, 48)
         yblocks = range(00, 240, 48)
-        bitmap=bitmaplist[frame/100%260-1]
-        imagename=imagenamelist[frame/100%260-1]
+        bitmap=bitmaplist[frame/100%520-1]
+        imagename=imagenamelist[frame/100%520-1]
         bitmap = pygame.transform.scale2x(bitmap)
         if 1:
            #anim = anim + 0.04

@@ -1,0 +1,810 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"g",
+				"get_at"
+			],
+			[
+				"y",
+				"y"
+			],
+			[
+				"set",
+				"set_palette"
+			],
+			[
+				"scale",
+				"scale2x"
+			],
+			[
+				"dat",
+				"datx"
+			],
+			[
+				"datas",
+				"dataset5x5"
+			],
+			[
+				"dataset",
+				"dataset5x5"
+			],
+			[
+				"best",
+				"bestoption"
+			],
+			[
+				"blue",
+				"bluemaybe"
+			],
+			[
+				"astar",
+				"astarratio"
+			],
+			[
+				"def_",
+				"def_checkpoints"
+			],
+			[
+				"r",
+				"r"
+			],
+			[
+				"smalle",
+				"smallest"
+			],
+			[
+				"dbpx",
+				"dbpx"
+			],
+			[
+				"visited",
+				"get_visited"
+			],
+			[
+				"b",
+				"blit"
+			],
+			[
+				"c",
+				"circle"
+			],
+			[
+				"None",
+				"none"
+			],
+			[
+				"ex",
+				"except"
+			],
+			[
+				"yrange",
+				"yrange"
+			],
+			[
+				"p2p3",
+				"p2p3angle"
+			],
+			[
+				"get",
+				"get3dto2d"
+			],
+			[
+				"file",
+				"fileobj"
+			],
+			[
+				"window",
+				"WINDOWHEIGHT"
+			],
+			[
+				"windo",
+				"WINDOWHEIGHT"
+			],
+			[
+				"p",
+				"p2"
+			],
+			[
+				"p1",
+				"p1bydiff"
+			],
+			[
+				"camerasetPosy",
+				"camerasetPosy"
+			],
+			[
+				"cas",
+				"camerasetPosY"
+			],
+			[
+				"camera",
+				"camerasetPosY"
+			],
+			[
+				"version",
+				"version_info"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "assign3_00.py",
+			"settings":
+			{
+				"buffer_size": 4850,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Panda3D-1.8.1/python/camera-edit.py",
+			"settings":
+			{
+				"buffer_size": 3194,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Panda3D-1.8.1/python/camera.py",
+			"settings":
+			{
+				"buffer_size": 2724,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/ESP/Documents/GitHub/perceptron_adaline_oo/singl_neuron_neural_networks.py",
+			"settings":
+			{
+				"buffer_size": 6735,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assign3_03_15x15.py",
+			"settings":
+			{
+				"buffer_size": 7382,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assign3_03.py",
+			"settings":
+			{
+				"buffer_size": 7413,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dataset5x5etc.py",
+			"settings":
+			{
+				"buffer_size": 448542,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assign3_functions_v2.py",
+			"settings":
+			{
+				"buffer_size": 1651,
+				"line_ending": "Windows",
+				"name": "assign3_functions.py"
+			}
+		},
+		{
+			"file": "/C/Users/ESP/Dropbox/Public/2014/testlab/precord.py",
+			"settings":
+			{
+				"buffer_size": 1215,
+				"line_ending": "Windows",
+				"name": "\"\"\"PyAudio Example: Play a WAVE file.\"\"\""
+			}
+		},
+		{
+			"file": "/C/Users/ESP/Dropbox/Public/2014/aiprog/talkingscreenshot.py",
+			"settings":
+			{
+				"buffer_size": 6727,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: While Loop"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Panda3D-1.8.1/python/Lib/site-packages/pygame/examples/camera.py",
+		"/C/Users/ESP/Documents/GitHub/AI-2014/list_cameras.py",
+		"/C/Panda3D-1.8.1/python/magicscript - cam.py",
+		"/C/Anaconda/examples/chaco/multiaxis.py",
+		"/C/Panda3D-1.8.1/python/Lib/site-packages/pygame/_camera_vidcapture.py",
+		"/S/Users/ESP/Kivy-1.8.0-py2.7-win32/kivy/examples/tutorials/pong/main.py",
+		"/C/Users/ESP/Documents/GitHub/AI-2014/testing.py",
+		"/C/Users/ESP/Documents/GitHub/AI-2014/VideoCapture.py",
+		"/C/Panda3D-1.8.1/python/Lib/site-packages/pygame/_camera_opencv_highgui.py",
+		"/C/Users/ESP/AppData/Local/Temp/Temp1_VideoCapture-0.9-5.zip/VideoCapture-0.9-5/Tools/webcam-watcher/webcam-watcher.py",
+		"/C/VideoCapture-0.9-5/Tools/3rdParty/webcam-server/webcam-server.py",
+		"/C/VideoCapture-0.9-5/Tools/webcam-saver/webcam-saver.py",
+		"/C/VideoCapture-0.9-5/Tools/webcam-uploader/webcam-uploader.py",
+		"/C/Panda3D-1.8.1/python/Lib/site-packages/PIL/BmpImagePlugin.py",
+		"/C/Panda3D-1.8.1/python/Lib/site-packages/numpy/linalg/setup.py",
+		"/C/Panda3D-1.8.1/python/Lib/site-packages/numpy/linalg/linalg.py",
+		"/C/Panda3D-1.8.1/python/Lib/site-packages/numpy/polynomial/hermite.py",
+		"/C/Panda3D-1.8.1/python/Lib/site-packages/pygame/examples/overlay.py",
+		"/C/Users/ESP/Dropbox/Public/2014/matplot.py",
+		"/C/Users/ESP/Desktop/3dlandscript2/PyInstaller-2.1/PyInstaller/hooks/hook-scipy.io.matlab.py",
+		"/C/Users/ESP/Desktop/3dlandscript2/PyInstaller-2.1/setup.py",
+		"/C/Users/ESP/Documents/GitHub/AI-2014/assign3.sublime-project",
+		"/C/Users/ESP/Dropbox/Public/2014/aiprog/talkingscreenshot.py",
+		"/C/Panda3D-1.8.1/python/Lib/site-packages/pyaudio.py",
+		"/C/Panda3D-1.8.1/samples/Ball-in-Maze/magicscript_bim.py",
+		"/C/Users/ESP/Documents/GitHub/libfreenect/wrappers/python/frame_convert.py",
+		"/C/Users/ESP/Documents/GitHub/libfreenect/wrappers/python/demo_cv_async.py",
+		"/S/PySDL2-0.6.0/examples/gfxdrawing.py",
+		"/C/Users/ESP/Dropbox/Public/2014/testlab/pwire.py",
+		"/S/PySDL2-0.6.0/setup.py",
+		"/C/Users/ESP/Dropbox/Public/2014/testlab/miprint.py",
+		"/C/Users/ESP/Documents/GitHub/libfreenect/README.md",
+		"/C/Panda3D-1.8.1/samples/Ball-in-Maze/bim.py",
+		"/S/Users/ESP/Kivy-1.8.0-py2.7-win32/kivy/examples/kinect/kinectviewer.py",
+		"/S/Users/ESP/Kivy-1.8.0-py2.7-win32/kivy/examples/tutorials/notes/final/main.py",
+		"/C/Users/ESP/Documents/GitHub/libfreenect/wrappers/python/setup.py",
+		"/C/Users/ESP/AppData/Local/Microsoft/Windows/Temporary Internet Files/Content.IE5/PWOUDI4Q/setup[1].py",
+		"/S/xbob.spkrec-0.0.1a6/setup.py",
+		"/C/Anaconda/Scripts/cython.py",
+		"/C/Users/ESP/Cython-0.20.1/setup.py",
+		"/C/Users/ESP/Dropbox/Public/get-pip.py",
+		"/C/Users/ESP/Desktop/ez_setup.py",
+		"/C/Users/ESP/Documents/GitHub/libfreenect/wrappers/python/demo_tilt.py",
+		"/C/Users/ESP/Dropbox/Public/2014/aiprog/yipp.py",
+		"/C/Users/ESP/Dropbox/Public/2013/mathprog/06extramaterial/foods-3d-numpy-cheat.py",
+		"/C/Panda3D-1.8.1/python/Lib/site-packages/pygame/examples/aacircle.py",
+		"/C/Panda3D-1.8.1/python/Lib/site-packages/pygame/examples/midi.py",
+		"/C/Panda3D-1.8.1/python/Lib/site-packages/pygame/examples/aliens.py",
+		"/C/Panda3D-1.8.1/python/Lib/site-packages/pygame/examples/chimp.py",
+		"/C/Users/ESP/Dropbox/Public/2014/aiprog/ai3/ANN backprop.cpp",
+		"/C/Users/ESP/Dropbox/Public/2014/aiprog/calc_vectorcrossing.py",
+		"/C/Users/ESP/Dropbox/Public/2014/aiprog/ai2v16.py",
+		"/C/Users/ESP/Dropbox/Public/more/Cv.htm",
+		"/C/Users/ESP/Documents/GitHub/AI-2014/assign3_03_15x15.py",
+		"/S/Panda3D-1.8.1/python/Lib/site-packages/pygame/_camera_vidcapture.py",
+		"/S/Panda3D-1.8.1/python/Lib/site-packages/pygame/examples/camera.py",
+		"/S/Panda3D-1.8.1/python/Lib/site-packages/pygame/_camera_vidcapture.pyc",
+		"/S/Panda3D-1.8.1/python/Lib/site-packages/WConio.py",
+		"/C/Panda3D-1.8.1/python/Lib/site-packages/pygame/examples/arraydemo.py",
+		"/S/get-pip.py",
+		"/C/Users/ESP/Dropbox/Public/2014/aiprog/writefile.py",
+		"/C/Users/ESP/Dropbox/Public/2013/mathprog/06extramaterial/infinitehanoi.py",
+		"/C/Users/ESP/Dropbox/Public/2014/aiprog/print.py",
+		"/C/Users/ESP/Downloads/search_astar_fixed.py",
+		"/C/Users/ESP/Dropbox/Public/2013/mathprog/06extramaterial/randoms.py",
+		"/C/Users/ESP/Dropbox/Public/2013/mathprog/06extramaterial/baccaratanalysis.py",
+		"/C/Users/ESP/Dropbox/Public/2013/mathprog/06extramaterial/threadyo.py",
+		"/C/MinGW/bin/oblig2v4.cpp",
+		"/C/MinGW/bin/testing.cpp",
+		"/C/Users/ESP/Dropbox/Public/2014/aiprog/transp.py",
+		"/C/Users/ESP/Dropbox/Public/2014/aiprog/ai2v13.py",
+		"/C/Panda3D-1.8.1/python/ai2v14.py",
+		"/C/Users/ESP/Dropbox/Public/2014/aiprog/linescrossing.py",
+		"/C/Users/ESP/Dropbox/Public/2014/aiprog/ai2v5.py",
+		"/C/Panda3D-1.8.1/python/magicscript2.py",
+		"/C/Panda3D-1.8.1/python/magicscript.py",
+		"/C/Users/ESP/Dropbox/Public/2013/mathprog/06extramaterial/morerandomarrays.py",
+		"/C/Users/ESP/Dropbox/Public/2013/mathprog/06extramaterial/e3dm-20130727.py",
+		"/C/Panda3D-1.8.1/python/ai2exe.py",
+		"/C/Users/ESP/Dropbox/Public/2014/aiprog/magicscript.py",
+		"/C/Users/ESP/Dropbox/Public/2013/mathprog/06extramaterial/hi.py",
+		"/C/Users/ESP/Dropbox/Public/2014/aiprog/morewrite.py",
+		"/C/Users/ESP/Dropbox/Public/2013/mathprog/06extramaterial/recursion.py",
+		"/C/Users/ESP/Dropbox/Public/2013/mathprog/06extramaterial/somemore.c++",
+		"/C/Users/ESP/Dropbox/Public/2012/programming/obliger/oblig4v5.cpp",
+		"/C/Users/ESP/Dropbox/Public/2013/mathprog/06extramaterial/output.txt",
+		"/C/Users/ESP/Documents/3dsMax/import/3dsgenericpython.py",
+		"/C/Users/ESP/Dropbox/Public/2013/mathprog/06extramaterial/what.py",
+		"/C/Anaconda/Lib/sqlite3/test/dump.py",
+		"/I/Oblig2.sql",
+		"/C/wamp2/www/Plain/db.php",
+		"/C/wamp2/www/MVC/MyDB.php",
+		"/C/Users/ESP/Dropbox/Public/2013/mathprog/06extramaterial/mathtest.py",
+		"/C/Users/ESP/Downloads/CdBibliotek.sql.zip",
+		"/C/Users/ESP/Dropbox/Public/2013/mathprog/06extramaterial/e3dm.py",
+		"/C/Users/ESP/Dropbox/Public/2013/mathprog/06extramaterial/e3d (ESP-PC's conflicted copy 2013-06-22).py",
+		"/C/Users/ESP/Dropbox/Public/2013/mathprog/06extramaterial/camerastuff.py",
+		"/C/Users/ESP/Dropbox/Public/2013/mathprog/06extramaterial/cameratest.py",
+		"/C/Users/ESP/Dropbox/Public/2013/mathprog/06extramaterial/teapot.obj",
+		"/C/Users/ESP/Dropbox/Public/2013/mathprog/06extramaterial/bigtank2.obj",
+		"/C/Users/ESP/Dropbox/Public/2013/mathprog/06extramaterial/3d.obj",
+		"/C/Users/ESP/Dropbox/Public/2013/mathprog/06extramaterial/morecam.py",
+		"/C/Users/ESP/Dropbox/Public/2013/mathprog/06extramaterial/wincamstuff.py",
+		"/C/Users/ESP/Dropbox/Public/2013/mathprog/06extramaterial/foods-3d.py",
+		"/C/Users/ESP/Dropbox/Public/2013/mathprog/06extramaterial/foodsderiv-v3.py",
+		"/C/Users/ESP/Dropbox/Public/2013/mathprog/06extramaterial/random.py",
+		"/C/Python27x86/Lib/site-packages/pygame/examples/overlay.py",
+		"/C/Python27x86/Lib/site-packages/pygame/tests/font_tags.py",
+		"/C/Python27x86/Lib/site-packages/pygame/examples/camera.py",
+		"/C/Panda3D-1.8.1/python/Lib/site-packages/pygame/examples/sound_array_demos.py",
+		"/C/Python27x86/Lib/site-packages/pygame/examples/headless_no_windows_needed.py",
+		"/C/Python27x86/Lib/site-packages/pygame/examples/scaletest.py",
+		"/C/Python27x86/Lib/site-packages/pygame/examples/vgrade.py",
+		"/C/Python27x86/Lib/site-packages/pygame/examples/sound_array_demos.py",
+		"/C/Python27x86/Lib/site-packages/pygame/examples/sound.py",
+		"/C/Panda3D-1.8.1/python/Lib/site-packages/pygame/cursors.py",
+		"/C/Panda3D-1.8.1/python/Lib/site-packages/pygame/camera.py",
+		"/C/Panda3D-1.8.1/python/Lib/site-packages/pygame/cursors.pyc",
+		"/C/Panda3D-1.8.1/python/Lib/phidgets/Accelerometer.py",
+		"/C/Python27x86/Lib/site-packages/pygame/tests/gfxdraw_test.py",
+		"/C/Python27x86/Lib/site-packages/pygame/docs/tut/chimp/chimp.py.html",
+		"/C/Python27x86/Lib/site-packages/pygame/examples/__movie_test.pyc",
+		"/C/Python27/Lib/codecs.py",
+		"/C/Python27/Lib/abc.py",
+		"/C/Panda3D-1.8.1/samples/Roaming-Ralph/Tut-Roaming-Ralph.py",
+		"/C/Panda3D-1.8.1/samples/Media-Player/Tut-Media-Player.py",
+		"/C/Python27/hello.py",
+		"/C/Python27x86/setup.py"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"print",
+			"open",
+			"wave.open",
+			"paInt16",
+			"random.randint(0,10000)",
+			"random",
+			"nyttnr",
+			"sistebrukt",
+			"nystr",
+			"print",
+			"space",
+			"def_nodes",
+			"def",
+			"def_nodes",
+			"yay",
+			"drawline",
+			"dist",
+			"\")\n",
+			"comeback",
+			"if alive",
+			"\")\n",
+			"0",
+			"10",
+			"\")\n",
+			"1",
+			"20",
+			"keydown",
+			"event.key",
+			"\n",
+			"grid",
+			"file2objyz",
+			"file",
+			"mrio",
+			"vecreotvec",
+			"verts",
+			"show",
+			"print",
+			"RED",
+			"addvec",
+			"len",
+			"maparray",
+			"100",
+			"animcount",
+			"animc",
+			"for",
+			"camerasetPosY",
+			"camerasetPosy",
+			"camerasetPosY",
+			"tunnel.png",
+			"tunnel.jpg",
+			"tunnel",
+			"version"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "assign3_00.py",
+					"settings":
+					{
+						"buffer_size": 4850,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3473,
+								3473
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1997.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Panda3D-1.8.1/python/camera-edit.py",
+					"settings":
+					{
+						"buffer_size": 3194,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2423,
+								2423
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 779.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Panda3D-1.8.1/python/camera.py",
+					"settings":
+					{
+						"buffer_size": 2724,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/ESP/Documents/GitHub/perceptron_adaline_oo/singl_neuron_neural_networks.py",
+					"settings":
+					{
+						"buffer_size": 6735,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								371,
+								371
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "assign3_03_15x15.py",
+					"settings":
+					{
+						"buffer_size": 7382,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2535,
+								2517
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 882.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "assign3_03.py",
+					"settings":
+					{
+						"buffer_size": 7413,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5393,
+								5449
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2265.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "dataset5x5etc.py",
+					"settings":
+					{
+						"buffer_size": 448542,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								46880,
+								46880
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 5625.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "assign3_functions_v2.py",
+					"settings":
+					{
+						"buffer_size": 1651,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1123,
+								1123
+							]
+						],
+						"settings":
+						{
+							"auto_name": "assign3_functions.py",
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 252.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/C/Users/ESP/Dropbox/Public/2014/testlab/precord.py",
+					"settings":
+					{
+						"buffer_size": 1215,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								168,
+								168
+							]
+						],
+						"settings":
+						{
+							"auto_name": "\"\"\"PyAudio Example: Play a WAVE file.\"\"\"",
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/C/Users/ESP/Dropbox/Public/2014/aiprog/talkingscreenshot.py",
+					"settings":
+					{
+						"buffer_size": 6727,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								333,
+								333
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1302.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 294.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/Users/ESP/Documents/GitHub/AI-2014/assign3.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}

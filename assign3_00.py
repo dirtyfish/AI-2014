@@ -17,6 +17,7 @@ from math import sin
 
 main_dir = os.path.split(os.path.abspath(__file__))[0]
 black = (255,255,255) #almost white
+white = (0,0,0)
 
 letters= ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
 imagenamelist=[]
@@ -37,7 +38,7 @@ def main():
       imagename= os.path.join(main_dir, 'RESIZED_30x30',getrandomfilename())
       bitmap = pygame.image.load(imagename)
       #bitmap = pygame.transform.scale2x(bitmap)
-      bitmap = pygame.transform.scale2x(bitmap)
+      #bitmap = pygame.transform.scale2x(bitmap)
 
       imagenamelist.append(imagename)
       bitmaplist.append(bitmap)
@@ -60,8 +61,8 @@ def main():
     frame=0
 
     while 1:
-        xblocks = range(00, 640, 24)
-        yblocks = range(00, 480, 24) 
+        xblocks = range(00, 640, 30)
+        yblocks = range(00, 480, 30) 
         frame+=1
         adjust=100-frame
         if adjust<0:adjust=0
@@ -108,6 +109,55 @@ def main():
                     for y in yblocks:
                         ypos = y#(y + (sin(anim+bitmapnr + y * .03) * 15)) + 0
                         screen.blit(bitmap, (x+200, y+200), (xpos, ypos, 47,47))
+  
+        pygame.draw.rect(screen, white, [199,199,32,32],1)
+        
+
+        if frame%100==0:
+          bwcolorlist=[]
+          for y in range(30):
+              for x in range (30):
+                  pickcolor=screen.get_at((200+x, 200+y))
+                  bwcolorlist.append(pickcolor[0])
+
+
+
+
+          nr=0
+          for y in range(30):
+             for x in range (30):
+                
+                screen.set_at([300+x*2,200+y*2],(bwcolorlist[nr],bwcolorlist[nr],bwcolorlist[nr]))
+                nr+=1
+
+
+        if frame%100==0:
+          #print len(bwcolorlist),bwcolorlist 
+          print len(bwcolorlist),bwcolorlist 
+          nr=0
+          bw9x9list=[]
+          da9x9list=[]
+          for x in range(9):
+            da9x9list.append([0,0,0,0,0,0,0,0,0])
+
+
+          for y in range(9):
+            for x in range(9):
+                nr+=1
+                sum=0
+                for yy in range(10):
+                    for xx in range(10):
+                        num=x*10+y*900+xx+yy*90
+                        sum+=bwcolorlist[num/10]
+                bw9x9list.append(sum)
+          print len(bw9x9list),bw9x9list
+          print da9x9list
+
+
+
+
+
+
 
 
         pygame.display.flip()

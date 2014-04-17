@@ -38,11 +38,10 @@ def wasvocal(letter):  #not in use
     else:return false
 
 def randomcolor():
-    random.randint(0,255)
-    random.randint(0,255)
-    random.randint(0,255)
+    #random.randint(0,255)
+    #random.randint(0,255)
+    #random.randint(0,255)
     return (random.randint(0,255),random.randint(0,255),random.randint(0,255))
-
 
 
 def getrandomfilename():
@@ -228,7 +227,7 @@ def main():
 
 
         pygame.display.flip()
-        mainClock.tick(200)
+        mainClock.tick(60)
 
 
 

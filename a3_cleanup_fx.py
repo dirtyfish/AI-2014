@@ -123,7 +123,8 @@ if 1:
     #resizing to smaller dataset might give a blur effect
     #so you might wanna set filterlevel higher..
     print my9x9set
-    for fdat in filterdataset(my9x9set,[180]):
+    #for fdat in filterdataset(my9x9set,[0,230,180,180]):
+    for fdat in filterdataset(my9x9set,[0,190]):
          #print fdat
          print str(fdat)[1:27:3]
 

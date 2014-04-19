@@ -135,15 +135,15 @@
 			"file": "assign3_00.py",
 			"settings":
 			{
-				"buffer_size": 4850,
+				"buffer_size": 5220,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/C/Panda3D-1.8.1/python/camera-edit.py",
+			"file": "camera-edit_smooth.py",
 			"settings":
 			{
-				"buffer_size": 3194,
+				"buffer_size": 3358,
 				"line_ending": "Unix"
 			}
 		},
@@ -456,7 +456,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -464,15 +464,15 @@
 					"file": "assign3_00.py",
 					"settings":
 					{
-						"buffer_size": 4850,
+						"buffer_size": 5220,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3473,
-								3473
+								4282,
+								4282
 							]
 						],
 						"settings":
@@ -482,25 +482,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1997.0,
+						"translation.y": 611.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "/C/Panda3D-1.8.1/python/camera-edit.py",
+					"file": "camera-edit_smooth.py",
 					"settings":
 					{
-						"buffer_size": 3194,
+						"buffer_size": 3358,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2423,
-								2423
+								2363,
+								2363
 							]
 						],
 						"settings":
@@ -510,7 +510,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 779.0,
+						"translation.y": 756.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

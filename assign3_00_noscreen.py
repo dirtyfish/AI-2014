@@ -31,7 +31,7 @@ def main():
     #initialize and setup screen
     pygame.init()
     mainClock = pygame.time.Clock()
-    screen = pygame.display.set_mode((640, 480), HWSURFACE|DOUBLEBUF)
+    #screen = pygame.display.set_mode((640, 480), HWSURFACE|DOUBLEBUF)
 
     #load image and quadruple
     for x in range(5):
@@ -47,12 +47,12 @@ def main():
   
 
     #get the image and screen in the same format
-    if screen.get_bitsize() == 8:
-        screen.set_palette(bitmap.get_palette())
-    else:
+    #if 0:#screen.get_bitsize() == 8:
+        #screen.set_palette(bitmap.get_palette())
+    if 1:
         print "converting"
         oldbitmap =bitmap
-        bitmap = bitmap.convert()
+        #bitmap = bitmap.convert()
 
     #prep some variables
     anim = 0.0
@@ -63,60 +63,34 @@ def main():
     frame=0
 
     while 1:
-        xblocks = range(00, 640, 30)
-        yblocks = range(00, 480, 30) 
+        #xblocks = range(00, 640, 30)
+        #yblocks = range(00, 480, 30) 
         frame+=1
-        adjust=100-frame
-        if adjust<0:adjust=0
-        screen.fill(black)
+        #adjust=100-frame
+        #if adjust<0:adjust=0
+
+        #screen.fill(black)
         for e in pygame.event.get():
             if e.type in stopevents:
                 return
         
-        bitmapnr=-1
-        if 0: 
-        #if frame<150:
-            for bitmap in bitmaplist:
-                bitmapnr+=1
-                anim = anim + 0.04
-                for x in xblocks:
-                    xpos = (x + (sin(anim+bitmapnr+adjust + x * .03) * 15)) + 0
-                    for y in yblocks:
-                        ypos = (y + (sin(anim+bitmapnr + y * .03) * 15)) + 0
-                        screen.blit(bitmap, (x+130*bitmapnr, y+adjust), (xpos, ypos, 23,23))
-        if 0:
-        #if frame>150:
-            for bitmap in bitmaplist:
-                bitmapnr+=1
-                anim = anim + 0.04
-                for x in xblocks:
-                    xpos = x#(x + (sin(anim+bitmapnr+adjust + x * .03) * 15)) + 0
-                    for y in yblocks:
-                        ypos = y#(y + (sin(anim+bitmapnr + y * .03) * 15)) + 0
-                        screen.blit(bitmap, (x+130*bitmapnr, y+adjust), (xpos, ypos, 25,25))
+       
+
+
 
 
      
 
 
         
-        xblocks = range(00, 640, 48)
-        yblocks = range(00, 480, 48)
+        
         bitmap=bitmaplist[frame/100%5]
-        #bitmap = pygame.transform.scale2x(bitmap)
-        if 1:
-           anim = anim + 0.04
-           for x in xblocks:
-                    xpos = x#(x + (sin(anim+bitmapnr+adjust + x * .03) * 15)) + 0
-                    for y in yblocks:
-                        ypos = y#(y + (sin(anim+bitmapnr + y * .03) * 15)) + 0
-                        # screen.blit(bitmap, (x+200, y+200), (xpos, ypos, 47,47))
-  
-        pygame.draw.rect(screen, white, [199,199,32,32],1)
+     
+     
         
         
         if frame%100==0:
-          #print len(bwcolorlist),bwcolorlist 
+          
           
           nr=0
           bw9x9list=[]
@@ -135,7 +109,7 @@ def main():
           nr=0
           for y in range(30):
               for x in range (30):
-                  pickcolor=bitmap.get_at((x,y))
+                  pickcolor=oldbitmap.get_at((x,y))
                   bwcolorlist.append(pickcolor[0])
                   da30x30list[nr/30][nr%30]=pickcolor[0]
                   #screen.set_at([300+x*2,200+y*2],(bwcolorlist[nr],bwcolorlist[nr],bwcolorlist[nr]))
@@ -164,13 +138,13 @@ def main():
           print da9x9list
 
 
+          if frame==666:return
 
 
 
 
 
-
-        pygame.display.flip()
+        #pygame.display.flip()
         mainClock.tick(30)
 
 

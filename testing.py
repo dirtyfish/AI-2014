@@ -32,3 +32,5 @@ print f.get()
 print 10>>3
 print c
 print (4<5)*3
+print 4 & 1
+print (4>0)&(1>0)

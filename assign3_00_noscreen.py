@@ -37,6 +37,7 @@ def main():
     for x in range(5):
       imagename= os.path.join(main_dir, 'RESIZED_30x30',getrandomfilename())
       bitmap = pygame.image.load(imagename)
+      
       #bitmap = pygame.transform.scale2x(bitmap)
       #bitmap = pygame.transform.scale2x(bitmap)
 
@@ -84,12 +85,12 @@ def main():
 
         
         
-        bitmap=bitmaplist[frame/100%5]
+        bitmap=bitmaplist[frame/10%5]
      
      
         
         
-        if frame%100==0:
+        if frame%10==0:
           
           
           nr=0
@@ -104,7 +105,7 @@ def main():
           for x in range(30):
             da30x30list.append(copy.deepcopy(da30list))
 
-        if frame%100==0:
+        if frame%10==0:
           bwcolorlist=[]
           nr=0
           for y in range(30):
@@ -138,7 +139,7 @@ def main():
           print da9x9list
 
 
-          if frame==666:return
+          if frame==100:return
 
 
 

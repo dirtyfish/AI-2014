@@ -12,6 +12,7 @@ main_dir = os.path.split(os.path.abspath(__file__))[0]
 letters= ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
 imagenamelist=[]
 bitmaplist=[]
+numsamples=20
 
 def file30x30_2_dataset_as2d(filename):
   result=[]
@@ -39,7 +40,9 @@ def file30x30_2_dataset_as2d(filename):
 
   return da30x30list
 
-  def convert_2d_2_1d(dataset):
+
+
+def convert_2d_2_1d(dataset):
     result=[]
     for subset in dataset:
         for data in subset:
@@ -48,6 +51,24 @@ def file30x30_2_dataset_as2d(filename):
 
 
 
+
+
+
+#converts 
+def getfilefromnum(num,samples=numsamples):
+  num+=1
+  xnum=num%samples
+  if xnum==0:
+    xnum=samples
+    num-=samples
+  result=letters[num/samples]+str(xnum)
+  return result+".jpg"
+
+#converts 
+def gnff(mystr,samples=numsamples):
+  result=int(mystr[1:])#last digits
+  for x in range(len(letters)):
+     if letters[x]==mystr[0]:return x*samples+result-1
 
 
 
@@ -107,7 +128,12 @@ def resize_dataset(dataset,size):
      return reslist
      #return [reslist,numlist]
 
-
+def returndatasetnr(nr, size, filter=None):
+  #print "Creating dataset size:", size, "Filename:", getfilefromnum(nr)
+  imagename= os.path.join(main_dir, 'RESIZED_30x30',getfilefromnum(nr))
+  mydataset=file30x30_2_dataset_as2d(imagename)
+  result=resize_dataset(mydataset,size)
+  return result
 
 
 if 1:
@@ -144,6 +170,31 @@ if 1:
     for underset in fdataset:
       #print str(underset)[1:80:3] for sending in facebook
      print str(underset)[1:90:3]
+
+
+    print getfilefromnum(0,5)
+
+    print returntotalset(9)
+    returntotalset(20)
+    
+def returntotalset(size):
+    nr=0
+    totalset=[]
+    for letter in letters:
+      for x in range(numsamples):
+        myquickset= returndatasetnr(nr,size)
+        #print myquickset
+        #myquickset= 
+        #print myquickset
+        totalset.append(convert_2d_2_1d(myquickset))
+        nr+=1
+    #for set in totalset:
+      #print set
+    return totalset
+
+        
+
+
 
 
 

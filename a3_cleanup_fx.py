@@ -203,4 +203,4 @@ def returntotalset(size):
 
 
 if __name__ == '__main__': main()
-print __file__, "<---- avslutter"
+#print __file__, "<---- avslutter"

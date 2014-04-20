@@ -51,6 +51,6 @@ print data.set5x5full20[gnff('A1')]
 print data.set5x5full20[gnff('A9')]
 print sorted([[4,3],3,2,5,[5,1], [2,11], [3,7], [1,9], [4,0]])
 print data
-print getscores('M1')#will only do two errors from a-z
+print getscores('B8')#will only do two errors from a-z
                      # w1 matches best with u1
                      # m1 matches best with a1 !!

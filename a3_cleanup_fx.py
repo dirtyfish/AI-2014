@@ -39,6 +39,13 @@ def file30x30_2_dataset_as2d(filename):
 
   return da30x30list
 
+  def convert_2d_2_1d(dataset):
+    result=[]
+    for subset in dataset:
+        for data in subset:
+          result.append(data)
+    return result
+
 
 
 

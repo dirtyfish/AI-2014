@@ -9,13 +9,14 @@ from pygame.locals import *
 red=(255,0,0,255)
 blue=(0,0,255,255)
 black=(0,0,0,255)
-BLACK=(255,255,255,255)
+BLACK=(222,112,62,255)
 xposi=0
 yposi=0
 screensize=(640,480)
 WINDOWHEIGHT=screensize[1]
 WINDOWWIDTH=screensize[0]
 camzoom= 1000
+odistance=100
 
 
 #pos3d = [WINDOWWIDTH/2+100,WINDOWHEIGHT/2+100,camzoom]
@@ -43,6 +44,7 @@ class VideoCapturePlayer(object):
    frames=0
    xposi=0
    yposi=0
+   distance=100
    def __init__(self, **argd):
        self.__dict__.update(**argd)
        super(VideoCapturePlayer, self).__init__(**argd)
@@ -73,6 +75,7 @@ class VideoCapturePlayer(object):
     twist=0
     degrees=360
     dataset=[]
+
 
     for y in range(steph):
         getheight=height/(steph-1)*y
@@ -111,6 +114,7 @@ class VideoCapturePlayer(object):
        # if you don't want to tie the framerate to the camera, you can check and
        # see if the camera has an image ready.  note that while this works
        # on most cameras, some will never return true.
+       odistance=self.distance
        self.frames+=1
        if 0 and self.camera.query_image():
            # capture an image
@@ -154,10 +158,11 @@ class VideoCapturePlayer(object):
 
          if countdots<60:countdots=60
          if countdots>500:countdots=500
-         distance=400/math.sqrt(countdots+1)
-         self.display.blit(self.snapshot, (self.screensize[0]+self.size[0]*2-self.xposi-self.size[0]/2,-self.size[1]*2+self.yposi-self.size[1]/2))
+         distance=(odistance*9+400/math.sqrt(countdots+1))/10
+         self.distance=odistance=distance
+         #self.display.blit(self.snapshot, (self.screensize[0]+self.size[0]*2-self.xposi-self.size[0]/2,-self.size[1]*2+self.yposi-self.size[1]/2))
          
-         self.create3dsph([3*(self.screensize[0]+self.size[0]*2-self.xposi-self.size[0]/2)-WINDOWWIDTH/2,3*(-self.size[1]*2+self.yposi-self.size[1]/2)-WINDOWHEIGHT/2,5000-100*distance],200,200,15,19)
+         self.create3dsph([3*(self.screensize[0]+self.size[0]*2-self.xposi-self.size[0]/2)-WINDOWWIDTH/2,3*(-self.size[1]*2+self.yposi-self.size[1]/2)-WINDOWHEIGHT/2,5000-100*distance],200,200,9,9)
        distance=400/math.sqrt(countdots+1)
        if self.frames%30<2:print self.frames, countdots, "Distance:", int(distance)," cm"
        pygame.display.flip()

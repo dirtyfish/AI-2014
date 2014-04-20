@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"Wi",
+				"WINDOWWIDTH"
+			],
+			[
+				"dasi",
+				"dasizelist"
+			],
+			[
+				"da",
+				"dasizexsizelist"
+			],
+			[
+				"resize",
+				"resize_dataset"
+			],
+			[
+				"fil",
+				"file30x30_2_dataset"
+			],
+			[
+				"get",
+				"get_at"
+			],
+			[
 				"g",
 				"get_at"
 			],
@@ -88,10 +112,6 @@
 				"p2p3angle"
 			],
 			[
-				"get",
-				"get3dto2d"
-			],
-			[
 				"file",
 				"fileobj"
 			],
@@ -132,18 +152,26 @@
 	"buffers":
 	[
 		{
-			"file": "assign3_00.py",
+			"file": "a3_cleanup_fx.py",
 			"settings":
 			{
-				"buffer_size": 5220,
+				"buffer_size": 3375,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "camera-edit_smooth.py",
+			"file": "testing.py",
 			"settings":
 			{
-				"buffer_size": 3358,
+				"buffer_size": 385,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "camera-edit_smooth_3d.py",
+			"settings":
+			{
+				"buffer_size": 6368,
 				"line_ending": "Unix"
 			}
 		},
@@ -156,35 +184,11 @@
 			}
 		},
 		{
-			"file": "/C/Users/ESP/Documents/GitHub/perceptron_adaline_oo/singl_neuron_neural_networks.py",
-			"settings":
-			{
-				"buffer_size": 6735,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "assign3_03_15x15.py",
-			"settings":
-			{
-				"buffer_size": 7382,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "assign3_03.py",
 			"settings":
 			{
 				"buffer_size": 7413,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "dataset5x5etc.py",
-			"settings":
-			{
-				"buffer_size": 448542,
-				"line_ending": "Windows"
 			}
 		},
 		{
@@ -242,6 +246,10 @@
 	},
 	"file_history":
 	[
+		"/C/Users/ESP/Documents/GitHub/AI-2014/dataset5x5etc.py",
+		"/C/Users/ESP/Documents/GitHub/AI-2014/assign3_03_15x15.py",
+		"/C/Users/ESP/Documents/GitHub/perceptron_adaline_oo/singl_neuron_neural_networks.py",
+		"/C/Users/ESP/Dropbox/Public/2013/mathprog/06extramaterial/e3dm-20130727.py",
 		"/C/Panda3D-1.8.1/python/Lib/site-packages/pygame/examples/camera.py",
 		"/C/Users/ESP/Documents/GitHub/AI-2014/list_cameras.py",
 		"/C/Panda3D-1.8.1/python/magicscript - cam.py",
@@ -295,7 +303,6 @@
 		"/C/Users/ESP/Dropbox/Public/2014/aiprog/calc_vectorcrossing.py",
 		"/C/Users/ESP/Dropbox/Public/2014/aiprog/ai2v16.py",
 		"/C/Users/ESP/Dropbox/Public/more/Cv.htm",
-		"/C/Users/ESP/Documents/GitHub/AI-2014/assign3_03_15x15.py",
 		"/S/Panda3D-1.8.1/python/Lib/site-packages/pygame/_camera_vidcapture.py",
 		"/S/Panda3D-1.8.1/python/Lib/site-packages/pygame/examples/camera.py",
 		"/S/Panda3D-1.8.1/python/Lib/site-packages/pygame/_camera_vidcapture.pyc",
@@ -319,7 +326,6 @@
 		"/C/Panda3D-1.8.1/python/magicscript2.py",
 		"/C/Panda3D-1.8.1/python/magicscript.py",
 		"/C/Users/ESP/Dropbox/Public/2013/mathprog/06extramaterial/morerandomarrays.py",
-		"/C/Users/ESP/Dropbox/Public/2013/mathprog/06extramaterial/e3dm-20130727.py",
 		"/C/Panda3D-1.8.1/python/ai2exe.py",
 		"/C/Users/ESP/Dropbox/Public/2014/aiprog/magicscript.py",
 		"/C/Users/ESP/Dropbox/Public/2013/mathprog/06extramaterial/hi.py",
@@ -367,9 +373,7 @@
 		"/C/Python27/Lib/codecs.py",
 		"/C/Python27/Lib/abc.py",
 		"/C/Panda3D-1.8.1/samples/Roaming-Ralph/Tut-Roaming-Ralph.py",
-		"/C/Panda3D-1.8.1/samples/Media-Player/Tut-Media-Player.py",
-		"/C/Python27/hello.py",
-		"/C/Python27x86/setup.py"
+		"/C/Panda3D-1.8.1/samples/Media-Player/Tut-Media-Player.py"
 	],
 	"find":
 	{
@@ -387,6 +391,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"xpos",
+			"deepcopy",
+			"depcopy",
 			"print",
 			"open",
 			"wave.open",
@@ -456,23 +463,23 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "assign3_00.py",
+					"file": "a3_cleanup_fx.py",
 					"settings":
 					{
-						"buffer_size": 5220,
+						"buffer_size": 3375,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4282,
-								4282
+								2893,
+								2893
 							]
 						],
 						"settings":
@@ -482,53 +489,51 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 611.0,
+						"translation.y": 1386.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "camera-edit_smooth.py",
+					"file": "testing.py",
 					"settings":
 					{
-						"buffer_size": 3358,
+						"buffer_size": 385,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2363,
-								2363
+								67,
+								67
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Python/Python.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 756.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "/C/Panda3D-1.8.1/python/camera.py",
+					"file": "camera-edit_smooth_3d.py",
 					"settings":
 					{
-						"buffer_size": 2724,
+						"buffer_size": 6368,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								355,
+								355
 							]
 						],
 						"settings":
@@ -545,24 +550,24 @@
 				},
 				{
 					"buffer": 3,
-					"file": "/C/Users/ESP/Documents/GitHub/perceptron_adaline_oo/singl_neuron_neural_networks.py",
+					"file": "/C/Panda3D-1.8.1/python/camera.py",
 					"settings":
 					{
-						"buffer_size": 6735,
+						"buffer_size": 2724,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								371,
-								371
+								190,
+								190
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 4,
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
@@ -573,34 +578,6 @@
 				},
 				{
 					"buffer": 4,
-					"file": "assign3_03_15x15.py",
-					"settings":
-					{
-						"buffer_size": 7382,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2535,
-								2517
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 882.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
 					"file": "assign3_03.py",
 					"settings":
 					{
@@ -611,8 +588,8 @@
 						"selection":
 						[
 							[
-								5393,
-								5449
+								5309,
+								5309
 							]
 						],
 						"settings":
@@ -628,34 +605,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "dataset5x5etc.py",
-					"settings":
-					{
-						"buffer_size": 448542,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								46880,
-								46880
-							]
-						],
-						"settings":
-						{
-							"auto_name": "",
-							"syntax": "Packages/Python/Python.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 5625.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
+					"buffer": 5,
 					"file": "assign3_functions_v2.py",
 					"settings":
 					{
@@ -666,8 +616,8 @@
 						"selection":
 						[
 							[
-								1123,
-								1123
+								628,
+								628
 							]
 						],
 						"settings":
@@ -683,7 +633,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 6,
 					"file": "/C/Users/ESP/Dropbox/Public/2014/testlab/precord.py",
 					"settings":
 					{
@@ -694,8 +644,8 @@
 						"selection":
 						[
 							[
-								168,
-								168
+								229,
+								229
 							]
 						],
 						"settings":
@@ -712,7 +662,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 7,
 					"file": "/C/Users/ESP/Dropbox/Public/2014/aiprog/talkingscreenshot.py",
 					"settings":
 					{
@@ -723,8 +673,8 @@
 						"selection":
 						[
 							[
-								333,
-								333
+								2351,
+								2351
 							]
 						],
 						"settings":
@@ -733,7 +683,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1302.0,
+						"translation.y": 3570.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

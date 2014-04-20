@@ -133,6 +133,8 @@ def returndatasetnr(nr, size, filter=None):
   imagename= os.path.join(main_dir, 'RESIZED_30x30',getfilefromnum(nr))
   mydataset=file30x30_2_dataset_as2d(imagename)
   result=resize_dataset(mydataset,size)
+  if filter==None:return result
+  result=filterdataset(result,filter)
   return result
 
 
@@ -174,7 +176,8 @@ if 1:
 
     print getfilefromnum(0,5)
 
-    print returntotalset(9)
+    for set in returntotalset(9):
+      print set
     returntotalset(20)
     
 def returntotalset(size):
